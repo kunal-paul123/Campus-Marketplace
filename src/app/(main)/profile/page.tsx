@@ -3,13 +3,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Calendar, Pencil } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { ItemCard } from "@/components/item-card";
-import { EmptyState } from "@/components/empty-state";
-import { currentUser, items } from "@/lib/data";
+import { Button } from "../../../../components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "../../../../components/ui/avatar";
+import { Badge } from "../../../../components/ui/badge";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../../../components/ui/tabs";
+import { ItemCard } from "../../../../components/item-card";
+import { EmptyState } from "../../../../components/empty-state";
+import { currentUser, items } from "../../../../lib/data";
 
 export default function ProfilePage() {
     const listedItems = items.filter(

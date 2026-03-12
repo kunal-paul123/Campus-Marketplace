@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Menu, X, ShoppingBag, PlusCircle, MessageCircle, User } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { AnimatedButton } from "@/components/animated-button";
+import { Button } from "./ui/button";
+import { AnimatedButton } from "./animated-button";
 
 export function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false);

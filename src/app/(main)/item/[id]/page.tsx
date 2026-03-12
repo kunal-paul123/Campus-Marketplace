@@ -13,12 +13,12 @@ import {
     Tag,
     ShieldCheck,
 } from "lucide-react";
-import { ItemGallery } from "@/components/item-gallery";
-import { AnimatedButton } from "@/components/animated-button";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { items } from "@/lib/data";
+import { ItemGallery } from "../../../../../components/item-gallery";
+import { AnimatedButton } from "../../../../../components/animated-button";
+import { Button } from "../../../../../components/ui/button";
+import { Badge } from "../../../../../components/ui/badge";
+import { Avatar, AvatarImage, AvatarFallback } from "../../../../../components/ui/avatar";
+import { items } from "../../../../../lib/data";
 
 export default function ItemDetailsPage() {
     const { id } = useParams();

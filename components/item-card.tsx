@@ -5,9 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Item } from "@/lib/types";
+import { Badge } from "./ui/badge";
+import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
+import { Item } from "../lib/types";
 
 interface ItemCardProps {
     item: Item;
@@ -15,6 +15,7 @@ interface ItemCardProps {
 }
 
 export function ItemCard({ item, index = 0 }: ItemCardProps) {
+    console.log(item);
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -4,13 +4,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Send, ArrowLeft } from "lucide-react";
-import { ChatBubble } from "@/components/chat-bubble";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { conversations, chatMessages, currentUser } from "@/lib/data";
-import { cn } from "@/lib/utils";
-import { Conversation } from "@/lib/types";
+import { ChatBubble } from "../../../../components/chat-bubble";
+import { Button } from "../../../../components/ui/button";
+import { Input } from "../../../../components/ui/input";
+import { Avatar, AvatarImage, AvatarFallback } from "../../../../components/ui/avatar";
+import { conversations, chatMessages, currentUser } from "../../../../lib/data";
+import { cn } from "../../../../lib/utils";
+import { Conversation } from "../../../../lib/types";
 
 export default function ChatPage() {
     const [selectedConv, setSelectedConv] = useState<Conversation | null>(

@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { AnimatedButton } from "@/components/animated-button";
-import { UploadImage } from "@/components/upload-image";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { categories, campuses } from "@/lib/data";
+import { AnimatedButton } from "../../../../components/animated-button";
+import { UploadImage } from "../../../../components/upload-image";
+import { Input } from "../../../../components/ui/input";
+import { Textarea } from "../../../../components/ui/textarea";
+import { categories, campuses } from "../../../../lib/data";
 import { CheckCircle } from "lucide-react";
 
 export default function SellPage() {

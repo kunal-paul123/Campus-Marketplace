@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Message } from "@/lib/types";
+import { cn } from "../lib/utils";
+import { Message } from "../lib/types";
 
 interface ChatBubbleProps {
     message: Message;

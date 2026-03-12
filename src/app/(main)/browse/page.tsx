@@ -3,13 +3,13 @@
 import React, { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { SlidersHorizontal } from "lucide-react";
-import { SearchBar } from "@/components/search-bar";
-import { CategoryFilter } from "@/components/category-filter";
-import { ItemCard } from "@/components/item-card";
-import { ItemCardSkeleton } from "@/components/item-card-skeleton";
-import { EmptyState } from "@/components/empty-state";
-import { Button } from "@/components/ui/button";
-import { items, categories, campuses } from "@/lib/data";
+import { SearchBar } from "../../../../components/search-bar";
+import { CategoryFilter } from "../../../../components/category-filter";
+import { ItemCard } from "../../../../components/item-card";
+import { ItemCardSkeleton } from "../../../../components/item-card-skeleton";
+import { EmptyState } from "../../../../components/empty-state";
+import { Button } from "../../../../components/ui/button";
+import { items, categories, campuses } from "../../../../lib/data";
 
 export default function BrowsePage() {
     const [search, setSearch] = useState("");

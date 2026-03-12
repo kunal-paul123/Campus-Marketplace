@@ -9,11 +9,11 @@ import {
     MapPin,
     MessageCircle,
 } from "lucide-react";
-import { AnimatedButton } from "@/components/animated-button";
-import { ItemCard } from "@/components/item-card";
-import { Footer } from "@/components/footer";
-import { Button } from "@/components/ui/button";
-import { items } from "@/lib/data";
+import { AnimatedButton } from "../../components/animated-button";
+import { ItemCard } from "../../components/item-card";
+import { Footer } from "../../components/footer";
+import { Button } from "../../components/ui/button";
+import { items } from "../../lib/data";
 
 const features = [
     {
